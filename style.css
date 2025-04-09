@@ -1,0 +1,65 @@
+/*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Spotify Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex flex-col items-center p-6">
+  <h1 class="text-3xl font-bold mb-4">🎵 Mini Spotify Clone</h1>
+
+  <!-- Search Input -->
+  <input
+    type="text"
+    id="search"
+    placeholder="Search for a song..."
+    class="w-full max-w-md px-4 py-2 text-black rounded mb-6"
+  />
+
+  <!-- Results -->
+  <div id="results" class="grid gap-4 w-full max-w-3xl"></div>
+
+  <!-- Player -->
+  <!-- Blurred Background -->
+<div id="bg-blur" class="fixed inset-0 -z-10 bg-black/80 bg-cover bg-center blur-xl opacity-30"></div>
+
+<!-- Player -->
+<div id="player" class="fixed bottom-0 left-0 w-full backdrop-blur bg-white/10 text-white p-4 shadow-2xl hidden transition">
+  <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+    
+    <!-- Info -->
+    <div class="flex items-center gap-4">
+      <img id="cover" src="" alt="cover" class="w-14 h-14 rounded-md" />
+      <div>
+        <div id="title" class="font-bold">Title</div>
+        <div id="artist" class="text-sm text-gray-300">Artist</div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="flex items-center gap-4 w-full md:w-auto">
+      <button id="playBtn" class="px-4 py-2 bg-white/20 rounded hover:bg-white/30 transition">Play</button>
+      <input type="range" id="seekBar" value="0" class="w-full md:w-60 h-2 bg-white/30 rounded-lg appearance-none cursor-pointer" />
+      <div id="time" class="text-xs w-16 text-right">0:00 / 0:30</div>
+      <input type="range" id="volume" min="0" max="1" step="0.01" value="1" class="w-24 h-2 bg-white/30 rounded-lg appearance-none cursor-pointer" />
+    </div>
+  </div>
+
+  <!-- Equalizer (fake animation) -->
+  <div id="equalizer" class="flex gap-1 mt-2 hidden">
+    <div class="w-1 h-4 bg-green-400 animate-bounce"></div>
+    <div class="w-1 h-6 bg-green-400 animate-bounce [animation-delay:.1s]"></div>
+    <div class="w-1 h-3 bg-green-400 animate-bounce [animation-delay:.2s]"></div>
+    <div class="w-1 h-5 bg-green-400 animate-bounce [animation-delay:.3s]"></div>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+*/
